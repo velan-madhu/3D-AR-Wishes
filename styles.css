@@ -1,4 +1,4 @@
-<body>
+/* <body>
     <div id="loader">Loading AR Experience...</div>
     <a-scene embedded arjs>
       <!-- Add a 3D Text -->
@@ -18,3 +18,20 @@
     <!-- Link to JavaScript -->
     <script src="script.js"></script>
   </body>
+ */
+
+/* Styling for the AR experience */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+a-scene {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
